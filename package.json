@@ -1,6 +1,6 @@
 {
   "name": "appcharge-checkout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Appcharge inc <nirtz-appcharge@users.noreply.github.com>",
   "license": "MIT",
   "main": "lib/index.js",
@@ -21,8 +21,8 @@
   },
   "peerDependencies": {
     "react": "^18.0.2",
-    "react-dom": "^17.0.2",
-    "react-is": "^17.0.2",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
@@ -35,14 +35,14 @@
     "@storybook/addon-links": "^6.3.8",
     "@storybook/react": "^6.3.8",
     "@types/jest": "^27.0.2",
-    "@types/react": "^17.0.24",
-    "@types/react-dom": "^17.0.9",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
     "babel-loader": "^8.2.2",
     "jest": "^27.2.2",
     "postcss": "^8.4.27",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-is": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
     "rollup": "^2.57.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
