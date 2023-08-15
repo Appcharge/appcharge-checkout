@@ -8,12 +8,13 @@ export default {
 
 const Template: Story<AppchargeCheckoutProps> = (args) => (
   <AppchargeCheckout
-    url=''
-    playerId=''
-    price={1}
     sessionMetaData={{
       name: "John Doe",
     }}
+    {...args}
+    url='https://localhost:3000'
+    playerId='1'
+    price={1}
   />
 );
 

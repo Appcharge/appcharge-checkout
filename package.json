@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "build": "rm -rf lib && rollup -c",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "HTTPS=true start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "jest --passWithNoTests",
     "release": "yarn build && yarn version",
