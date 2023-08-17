@@ -13,6 +13,7 @@ export interface AppchargeCheckoutProps {
   closeIconRender?: ReactNode;
   onCloseModal?: () => void;
   isOpen?: boolean;
+  bootLocation?: string;
 }
 
 function AppchargeCheckout({
@@ -26,6 +27,7 @@ function AppchargeCheckout({
   closeIconRender,
   onCloseModal,
   isOpen,
+  bootLocation,
 }: AppchargeCheckoutProps) {
   return (
     <Stack
@@ -73,7 +75,9 @@ function AppchargeCheckout({
         <iframe
           src={`${url}/?playerId=${playerId}&price=${price}&sessionMetadata=${JSON.stringify(
             sessionMetaData
-          )}`}
+          )}&bootLocation=${
+            bootLocation || window.location.origin.replace("https://", "")
+          }`}
           title='checkout'
           style={{
             position: "relative",

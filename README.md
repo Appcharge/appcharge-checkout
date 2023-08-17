@@ -10,7 +10,7 @@ The easiest way to get started is by using this code snippet:
 
 ```ts
 <AppchargeCheckout
-  url='http://checkout.babawildslots.com'
+  url='http://checkout.yourdomain.com'
   priceInCents={price}
   sessionMetadata={payload}
   isOpen={isModalOpen}
