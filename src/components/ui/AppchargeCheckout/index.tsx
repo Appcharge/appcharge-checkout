@@ -40,6 +40,9 @@ function AppchargeCheckout({
       justifyContent='center'
       alignItems='center'
       zIndex='99999'
+      style={{
+        zIndex: "999999",
+      }}
       display={isOpen ? "flex" : "none"}
     >
       <Stack
