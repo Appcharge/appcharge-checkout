@@ -1,6 +1,6 @@
 {
   "name": "appcharge-checkout",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Appcharge inc <nirtz-appcharge@users.noreply.github.com>",
   "license": "MIT",
   "main": "lib/index.js",

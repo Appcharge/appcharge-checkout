@@ -39,7 +39,7 @@ function AppchargeCheckout({
       left={0}
       justifyContent='center'
       alignItems='center'
-      zIndex={9999}
+      zIndex='99999'
       display={isOpen ? "flex" : "none"}
     >
       <Stack
@@ -73,9 +73,9 @@ function AppchargeCheckout({
           )}
         </button>
         <iframe
-          src={`${url}/?playerId=${playerId}&price=${price}&sessionMetadata=${JSON.stringify(
-            sessionMetaData
-          )}&bootLocation=${
+          src={`${url}/?playerId=${playerId}&price=${price}&sessionMetadata=${
+            JSON.stringify(sessionMetaData) || "{}"
+          }&bootLocation=${
             bootLocation || window.location.origin.replace("https://", "")
           }`}
           title='checkout'
