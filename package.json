@@ -1022,5 +1022,10 @@
   "bugs": {
     "url": "https://github.com/nirtz-appcharge/appcharge-checkout/issues"
   },
-  "homepage": "https://github.com/nirtz-appcharge/appcharge-checkout#readme"
+  "homepage": "https://github.com/nirtz-appcharge/appcharge-checkout#readme",
+  "overrides": {
+    "@cypress/request": {
+      "form-data": "^2.5.4"
+    }
+  }
 }
